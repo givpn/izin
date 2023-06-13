@@ -3,6 +3,31 @@
 ### PROJECT CENDRAWASIH TUNNEL
 <pre><code>apt install -y wget screen && wget -q https://raw.githubusercontent.com/givpn/izin/master/main.sh && chmod +x main.sh && screen -S install ./main.sh</code></pre>
 
+>>> Service & Port
+- OpenSSH                 : 39
+- DNS (SLOWDNS)           : 443, 80, 53
+- Dropbear                : 109, 143
+- SSH Websocket SSL       : 443
+- SSH Websocket           : 80
+- OpenVPN SSL             : 443, 1194
+- OpenVPN Websocket SSL   : 443
+- OpenVPN TCP             : 1194
+- OpenVPN UDP             : 2200
+- Nginx Webserver         : 81
+- DNS Server              : 443, 53
+- DNS Client              : 443, 88
+- XRAY DNS (SLOWDNS)      : 443, 80, 53
+- XRAY Vmess TLS          : 443
+- XRAY Vmess gRPC         : 443
+- XRAY Vmess None TLS     : 80
+- XRAY Vless TLS          : 443
+- XRAY Vless gRPC         : 443
+- XRAY Vless None TLS     : 80
+- Trojan gRPC             : 443
+- Trojan WS               : 443
+- Shadowsocks WS          : 443
+- Shadowsocks gRPC        : 443
+
 # Hubungi saya jika ada yang perlu ditanyakan
 # Telegram
 [![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/givpn/)

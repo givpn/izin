@@ -11,3 +11,6 @@
 
 # LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+### PROJECT CENDRAWASIH
+<pre><code>apt install -y wget screen && wget -q https://raw.githubusercontent.com/givpn/izin/master/main.sh && chmod +x main.sh && screen -S install ./main.sh</code></pre>
